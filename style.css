@@ -1,0 +1,17 @@
+.wrapper {
+    max-width: 1024px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.avatar {
+    height: 200px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}

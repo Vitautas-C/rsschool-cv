@@ -2,7 +2,7 @@
 1. **Name:** Vitautas Cherniauskas
 2. **Contact:** [email](shadow7549@gmail.com), [telegram](https://t.me/VitautasC)
 3. **About:** I will try to answer why programming, and why front-end.
-Some time ago I found out that coding is great! Sometimes it's painful and offensive when you don't understand what exactly you did wrong at this time: Visibility zone? Quotation marks? Not a semicolon? A trivial typo? Or a dumb question, is it even legal to assign a style via !important?
+Some time ago I found out that coding is great! Sometimes it's painful and offensive when you don't understand what exactly you did wrong at this time: Visibility zone? Quotation marks? Not a semicolon? A trivial typo? Or a dumb question, is it even legal to assign a style via `!important`?
 Well then why are you coding, you ask.
 Just because nothing is impossible in programming. And if you can't do anything right now, this means that you just don't have enough knowledge. It will take some time and the puzzle will be formed in my head. The function will alive. And these few minutes that are worth it. The programmer is the Creator. Literally, almost on a biblical principle, the word was first. First there was the code.
 Well, the front-end is an opportunity to see the result of what was written here and now. Not just to know that the code works, but to be able to see it directly.

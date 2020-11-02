@@ -1,0 +1,214 @@
+       @font-face {
+           font-family: 'Roboto', sans-serif;
+           src: url(/fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+           font-weight: normal;
+           font-style: normal;
+       }
+       
+       @font-face {
+           font-family: 'Roboto', sans-serif;
+           src: url(/fonts/Roboto/Roboto-Bold.ttf) format('truetype');
+           font-weight: bold;
+           font-style: normal;
+       }
+       
+       @font-face {
+           font-family: 'Roboto', sans-serif;
+           src: url(/fonts/Roboto/Roboto-Italic.ttf) format('truetype');
+           font-weight: normal;
+           font-style: italic;
+       }
+       
+       .wrapper {
+           margin: 0 auto;
+       }
+       
+       .page_resume {
+           font-family: 'Roboto';
+           font-style: normal;
+           font-size: 20px;
+           line-height: 150%;
+           font-weight: normal;
+           color: #050505;
+           text-align: left;
+       }
+       
+       .greeting div {
+           margin: 8px;
+       }
+       
+       .avatar {
+           display: flex;
+           height: 250px;
+       }
+       
+       .caption {
+           display: flex;
+           justify-content: center;
+           max-width: 250px;
+           font-style: italic;
+       }
+       
+       .name {
+           font-size: 28px;
+       }
+       
+       .greeting img {
+           border: 2px solid #3A996C;
+       }
+       
+       .greeting {
+           display: flex;
+           flex-direction: column;
+           margin: 0;
+       }
+       
+       .introduction {
+           display: flex;
+       }
+       
+       .introduction2 {
+           display: flex;
+           flex-direction: column;
+           align-content: space-around;
+       }
+       
+       .contact-icon {
+           font-size: 20px;
+           padding: 8px;
+           margin-right: 8px;
+       }
+       
+       .contact {
+           display: flex;
+           align-items: center;
+           margin-right: 16px;
+       }
+       
+       .contacts {
+           display: flex;
+           font-size: 16px;
+       }
+       
+       .contacts>h2 {
+           margin-right: 5px;
+       }
+       
+       .cv {
+           display: flex;
+           flex-direction: row-reverse;
+       }
+       
+       a {
+           color: #53345F;
+           text-decoration: none;
+       }
+       
+       a:hover {
+           text-decoration: underline;
+       }
+       
+       a:visited {
+           color: #5079A2;
+       }
+       
+       a:active {
+           color: #3A996C;
+       }
+       
+       .bold {
+           font-weight: bold;
+       }
+       
+       .italic {
+           font-style: italic;
+       }
+       
+       .experience .experience_header {
+           width: fit-content;
+       }
+       
+       .experience[open] .experience_stages {
+           animation: experience 2s;
+       }
+       
+       @keyframes experience {
+           0% {
+               opacity: 0;
+           }
+           100% {
+               opacity: 1;
+           }
+       }
+       
+       .page_header>h1,
+       .page_header,
+       .about,
+       .name,
+       .contacts {
+           margin: 8px;
+       }
+       
+       .greeting,
+       .others {
+           margin: 8px;
+       }
+       
+       @media screen and (min-width: 1024px) {
+           .wrapper {
+               max-width: 1024px;
+           }
+           .col-1 {
+               margin-right: 40px;
+               min-width: 380px;
+           }
+       }
+       
+       @media screen and (max-width: 1024px) and (min-width: 768px) {
+           .wrapper {
+               max-width: 768px;
+           }
+           .col-1 {
+               margin-right: 20px;
+               min-width: 280px;
+           }
+           .contacts {
+               flex-wrap: wrap;
+           }
+       }
+       
+       @media screen and (max-width: 768px) and (min-width: 375px) {
+           .wrapper {
+               max-width: 375px;
+           }
+           .col-1 {
+               margin-right: 10px;
+               min-width: 280px;
+           }
+           .contacts,
+           .introduction,
+           .cv {
+               flex-wrap: wrap;
+           }
+       }
+       
+       @media screen and (max-width: 375px) {
+           .wrapper {
+               max-width: 320px;
+           }
+           .name {
+               padding: 0;
+               margin: 0;
+           }
+           .contacts,
+           .introduction,
+           .cv {
+               flex-wrap: wrap;
+           }
+           h2 .contact-icon,
+           h1,
+           h2,
+           .greeting_text {
+               display: none;
+           }
+       }
